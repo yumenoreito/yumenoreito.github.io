@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* 共通部分 ---------------------- */
+html{
+  font-size: 100%;
+}
+body{
+  background-color: #bad4d1;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+
+/* レイアウト */
+.align-center{
+  text-align: center;
+}
+.heading-large{
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* ヘッダーカバー画像 ------------ */
+.main-image{
+  border-radius: 16px;
+}
+
+/* ヘッダー --------------------- */
+.main-nav{
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+/* Home ------------------------ */
+
+
+/* フッター --------------------- */
+.copyright{
+  background-color: #432;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 6rem;
+  color: #fff;
+}
